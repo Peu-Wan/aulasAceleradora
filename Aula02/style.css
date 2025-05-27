@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+    width: auto;
+    height: 80px;
+    margin: 0px 0px 0px 0px;
+    background-color: black;
+}
+.logo{
+    #logo-imagem{
+        width: 70px;
+        height: 64px;
+        padding-top:12px ;
+    }
+}
+.title{
+    color: white;
+    text-align: center;
+    margin-top: -50px;
+    font-family: 'weare';
+    font-size: 27px;
+    
+}
+.container{
+    padding-top: 40px;
+    border-bottom: 2px solid black;
+    
+}
+.poster{
+    margin-left:20px ;
+    margin-top: 40px;
+}
+.description{
+   width:728px;
+   height: 270px;
+   margin-left: 270px;
+   margin-top: -320px;
+   font-family: ;
+}
+.button-container{
+    margin-top: -40px;
+    margin-left: 270px;
+}
+
+.button-play{
+    border-radius: 20px;
+    width: 90px;
+    height: 44px;
+    color: white;
+    background-color: red;
+}
+.button{
+    border-radius: 20px;
+    width: 90px;
+    height: 44px;
+    color: white;
+    background-color: black;
+}
+.info{
+    list-style: none;
+    width: 169px;
+    height: 181px;
+    margin-top: 48px;
+    margin-left: 10px;
+    background-color:#f0f0f0;
+}
+
+footer{
+    height: 40px;
+    margin: 0px;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+@font-face{
+    font-family: "weare";
+    src: url(one\ piece\ font.ttf) format("truetype");
+}
